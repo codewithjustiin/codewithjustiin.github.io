@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justin Benny | Student Founder & Builder</title>
+  <meta name="description" content="Personal website of Justin Benny - student founder, builder, and Business & Engineering student at THWS Schweinfurt.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+    <span class="icon-moon">&#9790;</span>
+    <span class="icon-sun">&#9788;</span>
+  </button>
+
+  <main class="container">
+    
+    <!-- Home View -->
+    <section id="home-view" class="view">
+      <div class="profile">
+        <div class="avatar-container">
+          <img src="assets/IMG_20251219_165415604.jpg.jpeg" alt="Justin Benny" class="avatar">
+        </div>
+        <h1 id="user-name" class="name">Justin Benny</h1>
+        <div class="bio">
+          <span class="bio-line">builder, business &amp; engineering at thws schweinfurt</span>
+          <span class="bio-line italic">building <a href="https://arthakindl.tech" target="_blank" rel="noopener noreferrer" class="accent">arthakindl</a></span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <nav class="nav-grid">
+        <div>
+          <a class="nav-link" href="#about" data-target="about"><span class="arrow">&gt;</span> about me</a>
+          <a class="nav-link" href="#blog" data-target="blog"><span class="arrow">&gt;</span> my blog</a>
+        </div>
+        <div>
+          <a class="nav-link" href="#projects" data-target="projects"><span class="arrow">&gt;</span> projects</a>
+          <a class="nav-link" href="#resume" data-target="resume"><span class="arrow">&gt;</span> resume</a>
+          <a class="nav-link" href="#contact" data-target="contact"><span class="arrow">&gt;</span> contact</a>
+        </div>
+      </nav>
+    </section>
+
+    <!-- About View -->
+    <section id="about-view" class="view hidden subpage">
+      <button class="back-btn" aria-label="Go back to home">&lt; back</button>
+      <h2 class="page-title">about me</h2>
+      <div class="page-content">
+        <p style="margin-bottom: 1rem;">
+          Hi, I'm Justin. I'm an Indian founder living in Germany, studying Business & Engineering at the Technical University of Applied Sciences Würzburg-Schweinfurt (THWS Schweinfurt).
+        </p>
+        <p style="margin-bottom: 1rem;">
+          I think in systems, workflows, and leverage points. I approached early building by shipping several utilities, but my primary focus is building systems that solve painful commercial bottlenecks.
+        </p>
+        <p>
+          Currently, I am co-founding <strong>ArthaKindl</strong>—a SaaS reconciliation platform for Shopify and Stripe small businesses—with my technical co-founder Sumeet based in India. I leverage my cross-cultural context and business engineering training to drive product, operations, and B2B customer development.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects View -->
+    <section id="projects-view" class="view hidden subpage">
+      <button class="back-btn" aria-label="Go back to home">&lt; back</button>
+      <h2 class="page-title">projects</h2>
+      <div class="page-content project-list">
+        
+        <div class="project-item">
+          <div class="project-header">
+            <a href="https://arthakindl.tech" target="_blank" rel="noopener noreferrer" class="project-name">ArthaKindl</a>
+            <span class="project-meta">current / fintech saas</span>
+          </div>
+          <p class="project-desc">A financial data reconciliation tool designed to automatically match Shopify, Stripe, and bank transactions for e-commerce and DTC merchants, reducing month-end bookkeeping errors and latency.</p>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <a href="#" class="project-name">Outreach Automation</a>
+            <span class="project-meta">2026 / automation utility</span>
+          </div>
+          <p class="project-desc">A local pipeline that scans target company websites, parses their context, and generates highly contextualized, personalized cold emails with custom hooks using local LLMs.</p>
+        </div>
+
+        <div class="project-item">
+          <div class="project-header">
+            <a href="#" class="project-name">Productivity App</a>
+            <span class="project-meta">2025 / workflow tool</span>
+          </div>
+          <p class="project-desc">A personal productivity dashboard built to optimize daily schedules, track keystone habits, and enforce visual block-based task deadlines without passive distractions.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Blog View -->
+    <section id="blog-view" class="view hidden subpage">
+      <button class="back-btn" aria-label="Go back to home">&lt; back</button>
+      <h2 class="page-title">blog</h2>
+      <div class="page-content blog-list">
+        
+        <div class="blog-item">
+          <span class="blog-date">may 12, 2026</span>
+          <a class="blog-title">Shopify said 11,200. Stripe said 9,847. The bank showed 9,412.</a>
+          <p class="blog-excerpt">The 3-way reconciliation problem every e-commerce merchant ignores until month-end close. Exploring transaction offsets, transaction timing, fees, and currency conversions.</p>
+        </div>
+
+        <div class="blog-item">
+          <span class="blog-date">apr 28, 2026</span>
+          <a class="blog-title">Building B2B SaaS Across 6,000 Kilometers</a>
+          <p class="blog-excerpt">What co-founding a fintech product across India and Germany taught us about asynchronous schedules, cross-cultural product assumptions, and the intersection of hustle and compliance.</p>
+        </div>
+
+        <div class="blog-item">
+          <span class="blog-date">mar 15, 2026</span>
+          <a class="blog-title">n8n Failed Us. Twice.</a>
+          <p class="blog-excerpt">A case study in automation fragility. Why running automations on dirty or unnormalized financial datasets produces chaotic systems, and why logic structuring must precede automation.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Resume View -->
+    <section id="resume-view" class="view hidden subpage">
+      <button class="back-btn" aria-label="Go back to home">&lt; back</button>
+      <h2 class="page-title">resume</h2>
+      <div class="page-content">
+        
+        <div class="resume-section">
+          <h3 class="resume-section-title">education</h3>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>THWS Schweinfurt</span>
+              <span class="resume-item-date">2024 — present</span>
+            </div>
+            <div class="resume-item-company">B.S. in Business & Engineering</div>
+            <p class="resume-item-desc">Bridging systems optimization and business strategy. Active lead on core group projects, utilizing student infrastructure to conduct market sizing research and design database schemas.</p>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h3 class="resume-section-title">experience</h3>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>Co-Founder</span>
+              <span class="resume-item-date">2025 — present</span>
+            </div>
+            <div class="resume-item-company">ArthaKindl</div>
+            <p class="resume-item-desc">Leading product validation, merchant outreach, and customer development for Shopify and Stripe transaction reconciliation. Built early outreach scraper engines and structured relational database normalization pipelines.</p>
+          </div>
+          
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <span>Developer & Builder</span>
+              <span class="resume-item-date">2025</span>
+            </div>
+            <div class="resume-item-company">Personal Builds</div>
+            <p class="resume-item-desc">Designed and deployed automated LLM outbound messaging scripts and a block-based productivity scheduler tool to optimize developer time blocks.</p>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h3 class="resume-section-title">skills</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted);">
+            TypeScript, Node.js, Python, SQL, n8n Automation, Database Normalization, Systems Design, Figma, B2B Outbound Outreach, Sales Discovery.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact View -->
+    <section id="contact-view" class="view hidden subpage">
+      <button class="back-btn" aria-label="Go back to home">&lt; back</button>
+      <h2 class="page-title">contact</h2>
+      <div class="page-content contact-links">
+        
+        <a href="mailto:iamjustiinbenny@gmail.com" class="contact-link">iamjustiinbenny@gmail.com</a>
+
+        <a href="https://github.com/codewithjustiin" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/codewithjustiin</a>
+
+        <a href="https://linkedin.com/in/justinbenny" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/justinbenny</a>
+
+        <a href="https://x.com/Justiinb1325" target="_blank" rel="noopener noreferrer" class="contact-link">x.com/Justiinb1325</a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Justin Benny. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
